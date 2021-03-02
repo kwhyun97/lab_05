@@ -152,7 +152,7 @@ matrix with the second column being the full date and the
 third column being the years.
 
 ```{r}
-str_match(x, pattern = "")
+str_match(x, pattern = "([:alpha:]{3}.(\\d{4})?.*)")
 ```
 
 ## Regex challenges
